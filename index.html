@@ -34,18 +34,30 @@
     </head>
     <body>
         <header> 
-            <h1> meeu blog tech</h1>
+            <h1> meu blog tech</h1>
             <p>vou compartilhar conhecimento sobre tcnologio e progamação</p>
         </header>
         <main> 
             <img src="imagen-blog.png"  alt="Ícone em azul escuro sobre fundo branco com um notebook, engrenagem, livro aberto e capelo de formatura, representando tecnologia e educação.">
 
             <div>
-                <h2>mu primeiro post</h2>
-                <p class="artigo-auto"> n</p>por: pedro henrique klos</p>
+                <h2>meu primeiro post</h2>
+                <p class="artigo-auto"> </p>por: pedro henrique klos</p>
                 <p>boas-vindas ao meu novo blog! qui vou compartilhar dicas de progamação e curiosidades de area de tecnologia.  </p>
                 <button>❤️ <span>0</span></button>
             </div>
+
         </main>
     </body>
-</html>
+    <script>
+         cont botao = document.querySelector("button");
+         botao.addEventListener("click", botaoClicado);
+
+         function botaoclicado(){
+             console.log("fui clicado")
+             LET TEXTO = BOTAO.QUERYsELECTOR("span");
+             texto.textContent++;
+         }
+
+    </script>
+    </html>
